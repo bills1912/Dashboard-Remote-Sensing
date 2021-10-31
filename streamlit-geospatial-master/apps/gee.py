@@ -11,7 +11,6 @@ def remoteSensing():
     width = 950
     height = 600
 
-    ee.Authenticate()
     ee.Initialize()
     
     Map = geemap.Map()
