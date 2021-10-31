@@ -10,8 +10,6 @@ def remoteSensing():
     row1_col1, row1_col2 = st.columns([3, 1])
     width = 950
     height = 600
-
-    ee.Initialize()
     
     Map = geemap.Map()
 
