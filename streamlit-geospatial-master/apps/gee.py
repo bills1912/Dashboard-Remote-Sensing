@@ -13,6 +13,7 @@ def remoteSensing():
 
 
     Map = geemap.Map()
+    ee.Initialize()
 
     # Select the seven NLCD epoches after 2000.
     region = ["Kab. Nganjuk", "Kab. Abab Pematang Ilir", "Kab. Rokan Hulu"]
