@@ -1,8 +1,8 @@
 geopandas
-keplergl
+# keplergl
 streamlit
 streamlit-folium
-streamlit-keplergl
-git+git://github.com/giswqs/leafmap
-git+git://github.com/giswqs/geemap
+# streamlit-keplergl
+leafmap
+geemap
 pyparsing>=2.4.2,<3.0.0a0
